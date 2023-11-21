@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table properties</title>
+    <style>
+        #users {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #users td,
+        #users th {
+            border: 1px solid red;
+        }
+
+        #users th {
+            background-color: aqua;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        #users td {
+            text-align: center;
+            padding: 8px 0;
+        }
+
+        #users tr:nth-child(odd) {
+            background-color: #c95959;
+        }
+
+        #users tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="users">
+        <tr>
+            <th>name</th>
+            <th>contactno</th>
+            <th>email_id</th>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td> 98765478</td>
+            <td>abc@gmail.com</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td> 98765478</td>
+            <td>abc@gmail.com</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td> 98765478</td>
+            <td>abc@gmail.com</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td> 98765478</td>
+            <td>abc@gmail.com</td>
+        </tr>
+    </table>
+</body>
+
+</html>

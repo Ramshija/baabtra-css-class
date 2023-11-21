@@ -1,0 +1,42 @@
+body,
+h1 {
+    margin: 0;
+}
+
+.container {
+    background-color: aqua;
+    padding: 10PX;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row| row-reverse|column|column-reverse; */
+        justify-content: flex-start;
+    /* justify-content: flex-start|flex-end|space-between|space-around; */
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse|nowrap; */
+
+}
+
+.item1,
+.item2,
+.item3 {
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+}
+
+.item1 {
+    order: 3;
+}
+
+.item2 {
+    order: 1;
+}
+
+.item3 {
+    order: 2;
+}
